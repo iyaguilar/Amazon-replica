@@ -1,0 +1,83 @@
+*   {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+img {transform: scale(0.2);
+
+}
+
+body {
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: white;
+    border-top: 3px solid white;
+    text-align: center;
+    padding: 1px;
+}
+
+article {
+    background-color: white;
+    margin: 0 auto 5px;
+    border: 2px solid white;
+    padding: 1px;
+    width: 50%;
+    border-radius: 90px;
+}
+
+
+nav {
+    list-style-type: none;
+}
+
+.nav-bar, .nav-link {
+display: inline;
+}
+
+#brand-title {
+    margin-right: 20px;
+}
+
+a{
+color: black;
+padding: 1px;
+text-decoration: none;
+
+}
+a:hover{
+    color: tomato;
+}
+main {
+    text-align: center;
+}
+form {
+    border: 2px solid black;
+    width:30%;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+}
+
+.form-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#profile-picture{
+    border-radius: 55%;
+    border: 2px white;
+
+}
